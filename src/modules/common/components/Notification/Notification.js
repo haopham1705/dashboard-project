@@ -1,10 +1,16 @@
 import { useEffect } from 'react'
 import styled from 'styled-components'
 
-import { Warning, CheckCircle, Cross } from '../Icons'
+import { Warning, CheckCircle, Cross, Checkbox } from '../Icons'
 import { typography, colors } from '../../utils/styles'
 
 const VARIANT_MAPPING = {
+  primary: {
+    background: colors,
+    border: colors.primary,
+    icon: <Checkbox color={colors.primary} />,
+
+  },
   success: {
     background: colors.greenLight,
     border: colors.green,
@@ -15,6 +21,11 @@ const VARIANT_MAPPING = {
     border: colors.yellow,
     icon: <Warning color={colors.yellow} />,
   },
+  danger: {
+    background: colors.redLight,
+    border: colors.red,
+    icon: <Cross color={colors.red} />,
+  }
 }
 
 const Wrapper = styled.div`

@@ -58,6 +58,9 @@ const typography = {
     `,
     overline: css`
       text-decoration: overline;
+    `,
+    wavy: css`
+      text-decoation: underline wavy;
     `
   }
 }

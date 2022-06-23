@@ -1,5 +1,6 @@
 const colors = {
   primary: '#32AB54',
+  primaryLight: '#81f7a2',
   black: '#000',
   white: '#FFF',
   tealDark: '#344A4F',
@@ -18,8 +19,8 @@ const colors = {
   green: '#2C9E8A',
   greenLight: '#EAF5F3',
   greenDark: '#277E3F',
-  teal: '#3B6168',
-  tealLight: '#ECEEF0',
+  teal: '#008080',
+  tealLight: '#68dede',
 
   gray1: '#333',
   gray2: '#4F4F4F',

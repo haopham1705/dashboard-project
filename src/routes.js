@@ -11,6 +11,9 @@ import {
   ClipboardFilled,
   Cog,
   CogFilled,
+  Cross,
+  CrossCircle,
+  ChevronRight,
 } from 'modules/common/components/Icons'
 
 export const mainRoutes = [

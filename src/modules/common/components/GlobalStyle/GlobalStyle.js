@@ -20,10 +20,10 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
   }
-  .title {
+  .mainTitle {
     ${typography.family.secondary}
   }
-  .code-content {
+  .codeContent {
     ${typography.family.code}
   }
 `

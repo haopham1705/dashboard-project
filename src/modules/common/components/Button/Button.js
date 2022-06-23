@@ -68,6 +68,11 @@ const SIZE_MAPPING = {
     height: '1.25rem',
     typography: typography.size.xsmall,
   },
+  xsmall: {
+    padding: '0 0.25rem',
+    height: '0.75rem',
+    typography: typography.size.xsmall
+  }
 }
 
 const DECORATION_MAPPING = {
@@ -79,6 +84,9 @@ const DECORATION_MAPPING = {
   },
   overline: {
     typography: typography.textDecoration.overline,
+  },
+  wavy: {
+    typography: typography.textDecoration.wavy,
   },
   none: {
     typography: typography.textDecoration.none,
@@ -128,6 +136,11 @@ const StyledButton = styled.button`
     `
   }}
   ${({decoration}) => {
+    const {dec} = DECORATION_MAPPING[decoration]
+
+    return `
+      text-decoration: ${dec};
+    `
   }}
 `
 
